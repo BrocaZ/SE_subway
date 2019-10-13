@@ -7,7 +7,7 @@
 [项目规划](https://www.cnblogs.com/bunnywwwwyj/p/11563321.html)
 注：课程要求是北京地铁的实现（和规划不同）
 
-[gihub] 链接暂无
+[gihub](https://github.com/BrocaZ/SE_subway)
 
 ## 实现
 
@@ -156,7 +156,8 @@ public static void getShortest(int s,int d){
 - 同时有多条最短路的测试
 `java subway -b 复兴门 宣武门 -map subway.txt -o line.txt`
 注：该测试样例有两条长度为2的路，一条换乘，一条不换乘
-![correct-test]()
+<!-- ![correct-test]() -->
+![](https://img2018.cnblogs.com/blog/1806390/201910/1806390-20191014022940489-459302200.jpg)
 
 ####鲁棒性测试
 - 命令行输入错误
@@ -172,7 +173,8 @@ public static void getShortest(int s,int d){
 用空格隔开，格式错误也能读。
 - 输出文件routine.txt已存在
 会覆盖掉原文件，原文件打开好像也没关系。
-![robust-test]()
+<!-- ![robust-test](https://github.com/BrocaZ/SE_subway/blob/master/robust-test.jpg) -->
+![](https://img2018.cnblogs.com/blog/1806390/201910/1806390-20191014022950938-1606304906.jpg)
 
 ##总结
 
@@ -188,3 +190,5 @@ public static void getShortest(int s,int d){
 - 前期想好的测试，实际测试的时候确实有测出多个错误。
 - 感受到知识确实要多复习，忘得好快啊。
 - 有个开始规划和结束总结的时间，有种有始有终的感觉。
+
+
